@@ -252,9 +252,9 @@ export const FilterBar: React.FC<FilterBarProps> = ({
               onChange={(e) => setFiltros((prev) => ({ ...prev, tipoChamada: e.target.value }))}
               className="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-sm text-slate-100 focus:outline-none focus:ring-2 focus:ring-blue-500/50"
             >
-              <option value="IN">Entrada (IN - Recebidas no PABX)</option>
-              <option value="OUT">Saída (OUT - Realizadas)</option>
-              <option value="todos">Todas (Entrada + Saída)</option>
+              <option value="IN">Entrada (Recebidas no PABX)</option>
+              <option value="OUT">Saída (Realizadas)</option>
+              <option value="todos">Todas (Entrada e Saída)</option>
             </select>
           </div>
 
