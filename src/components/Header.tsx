@@ -35,11 +35,11 @@ export const Header: React.FC<HeaderProps> = ({
             <div>
               <div className="flex items-center gap-2">
                 <h1 className="text-lg font-bold tracking-tight text-slate-100">
-                  PABX Analytics & Otimizador de Escala
+                  Sistema de monitoramento de chamadas
                 </h1>
               </div>
               <p className="text-xs text-slate-400">
-                Interativa Net • Análise de tráfego por hora e dimensionamento de turnos
+                Analise de ligações
               </p>
             </div>
           </div>
