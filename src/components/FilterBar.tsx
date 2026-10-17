@@ -122,27 +122,29 @@ export const FilterBar: React.FC<FilterBarProps> = ({
           {/* Data Inicial e Final */}
           <div className="space-y-1.5">
             <label className="text-xs font-medium text-slate-300 flex items-center gap-1.5">
-              <Calendar className="w-3.5 h-3.5 text-blue-400" />
+              <Calendar className="w-3.5 h-3.5 text-slate-400" />
               <span>Data Inicial</span>
             </label>
             <input
               type="date"
               value={filtros.dataInicio}
               onChange={(e) => setFiltros((prev) => ({ ...prev, dataInicio: e.target.value }))}
-              className="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-sm text-slate-100 focus:outline-none focus:ring-2 focus:ring-blue-500/50"
+              style={{ colorScheme: 'dark' }}
+              className="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-sm text-slate-100 focus:outline-none focus:ring-2 focus:ring-blue-500/50 [color-scheme:dark] [&::-webkit-calendar-picker-indicator]:cursor-pointer [&::-webkit-calendar-picker-indicator]:opacity-80 hover:[&::-webkit-calendar-picker-indicator]:opacity-100"
             />
           </div>
 
           <div className="space-y-1.5">
             <label className="text-xs font-medium text-slate-300 flex items-center gap-1.5">
-              <Calendar className="w-3.5 h-3.5 text-blue-400" />
+              <Calendar className="w-3.5 h-3.5 text-slate-400" />
               <span>Data Final</span>
             </label>
             <input
               type="date"
               value={filtros.dataFim}
               onChange={(e) => setFiltros((prev) => ({ ...prev, dataFim: e.target.value }))}
-              className="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-sm text-slate-100 focus:outline-none focus:ring-2 focus:ring-blue-500/50"
+              style={{ colorScheme: 'dark' }}
+              className="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-sm text-slate-100 focus:outline-none focus:ring-2 focus:ring-blue-500/50 [color-scheme:dark] [&::-webkit-calendar-picker-indicator]:cursor-pointer [&::-webkit-calendar-picker-indicator]:opacity-80 hover:[&::-webkit-calendar-picker-indicator]:opacity-100"
             />
           </div>
 
