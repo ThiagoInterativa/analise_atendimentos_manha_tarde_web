@@ -6,6 +6,11 @@ input[type="date"] {
 
 input[type="date"]::-webkit-calendar-picker-indicator {
   cursor: pointer;
-  filter: invert(0.8);
-  opacity: 0.85;
+  filter: brightness(0) invert(0.82) !important;
+  opacity: 0.9 !important;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator:hover {
+  filter: brightness(0) invert(1) !important;
+  opacity: 1 !important;
 }

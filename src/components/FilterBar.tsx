@@ -130,7 +130,7 @@ export const FilterBar: React.FC<FilterBarProps> = ({
               value={filtros.dataInicio}
               onChange={(e) => setFiltros((prev) => ({ ...prev, dataInicio: e.target.value }))}
               style={{ colorScheme: 'dark' }}
-              className="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-sm text-slate-100 focus:outline-none focus:ring-2 focus:ring-blue-500/50 [color-scheme:dark] [&::-webkit-calendar-picker-indicator]:cursor-pointer [&::-webkit-calendar-picker-indicator]:opacity-80 hover:[&::-webkit-calendar-picker-indicator]:opacity-100"
+              className="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-sm text-slate-100 focus:outline-none focus:ring-2 focus:ring-blue-500/50 [color-scheme:dark] [&::-webkit-calendar-picker-indicator]:cursor-pointer [&::-webkit-calendar-picker-indicator]:[filter:brightness(0)_invert(0.82)] [&::-webkit-calendar-picker-indicator]:opacity-90 hover:[&::-webkit-calendar-picker-indicator]:[filter:brightness(0)_invert(1)]"
             />
           </div>
 
@@ -144,7 +144,7 @@ export const FilterBar: React.FC<FilterBarProps> = ({
               value={filtros.dataFim}
               onChange={(e) => setFiltros((prev) => ({ ...prev, dataFim: e.target.value }))}
               style={{ colorScheme: 'dark' }}
-              className="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-sm text-slate-100 focus:outline-none focus:ring-2 focus:ring-blue-500/50 [color-scheme:dark] [&::-webkit-calendar-picker-indicator]:cursor-pointer [&::-webkit-calendar-picker-indicator]:opacity-80 hover:[&::-webkit-calendar-picker-indicator]:opacity-100"
+              className="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-sm text-slate-100 focus:outline-none focus:ring-2 focus:ring-blue-500/50 [color-scheme:dark] [&::-webkit-calendar-picker-indicator]:cursor-pointer [&::-webkit-calendar-picker-indicator]:[filter:brightness(0)_invert(0.82)] [&::-webkit-calendar-picker-indicator]:opacity-90 hover:[&::-webkit-calendar-picker-indicator]:[filter:brightness(0)_invert(1)]"
             />
           </div>
 
